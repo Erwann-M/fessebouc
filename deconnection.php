@@ -8,5 +8,5 @@ if (isset($_COOKIE['email']) && isset($_COOKIE['pass'])) {
     setcookie('email', '');
     setcookie('pass', '');
 }
-header('Location:connection.php');
+header('Location:index.php');
 ?>

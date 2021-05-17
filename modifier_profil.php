@@ -56,6 +56,7 @@ session_start();
             $nom_prenom_membre = $nom_prenom->fetch();
         ?>
         <h2><?php echo $nom_prenom_membre['prenom'] . ' ' . $nom_prenom_membre['nom'] ?></h2>
+        <h3><a id="suppr-profil" href="elements/suppression_compte.php">Supprimer le profil</a></h3>
 
         <?php
             if (isset($_POST['description']) || isset($_POST['etudes']) || isset($_POST['habitation']) || isset($_POST['genre']) || isset($_POST['metier'])) {

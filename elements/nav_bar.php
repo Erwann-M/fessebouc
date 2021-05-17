@@ -42,7 +42,7 @@
                     <a href="notification"><img src="img/notif_icon.png"></a>
                 </li>
                 <li>
-                    <a href="" title="Plus"><img src="img/deroul_icon.png"></a>
+                    <a href="deconnection.php" title="Deconnection"><img src="img/deconnection.png"></a>
                     <ul>
                         <li><a href="">Deconnection</a></li>
                         <li><a href="">Profil</a></li>
