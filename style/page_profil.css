@@ -1,0 +1,191 @@
+
+/* ---------------------------------entete du profil--------------------------------------------- */
+#photo_couv {
+    width: 950px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    position: absolute;
+}
+
+#photo_nom_couv_bg {
+    background: rgb(150,150,150);
+    background: linear-gradient(180deg, rgba(150,150,150,1) 4%, rgba(255,255,255,1) 100%);
+    height: 580px;
+    box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.15);
+}
+
+#photo_nom_couv {
+    width: 950px;
+    margin-left: 290px;
+}
+
+#changer_photo_couv_btn {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.705);
+    padding: 7px;
+    border-radius: 7px;
+    position: relative;
+    top: 350px;
+    left: 650px;
+}
+
+#changer_photo_couv_btn:hover {
+    background-color: #f2f2f2f1;
+}
+
+#changer_photo_couv_btn img {
+    height: 25px;
+}
+
+#conteneur_photo_profil_perso {
+    background-color: white;
+    height: 210px;
+    width: 210px;
+    border-radius: 210px;
+    position: relative;
+    top: 190px;
+    left: 370px;
+}
+
+#photo_profil_perso {
+    height: 200px;
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 200px;
+    object-fit: cover;
+}
+
+#changer_photo_profil_btn {
+    /* visibility: hidden;  => pour rendre invisible cet element. */
+    position: relative;
+    left: 150px;
+    bottom: 50px;
+}
+
+#changer_photo_profil_btn img:hover {
+    background-color: #f2f2f2ef;
+}
+
+#changer_photo_profil_btn img {
+    background-color: rgba(255, 255, 255, 0.767);
+    padding: 5px;
+    border-radius: 30px;
+}
+
+#photo_nom_couv h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 200px;
+    text-align: center;
+    border-bottom: rgb(189, 189, 189) 1px solid;
+}
+
+#btn_modif_profil {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(236, 236, 236);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 700px;
+    border-radius: 10px;
+}
+
+#btn_modif_profil:hover {
+    background-color: rgb(221, 221, 221);
+}
+
+
+#btn_modif_profil img {
+    height: 25px;
+}
+
+/* ---------------------------------derniers posts et info perso ------------------------------- */
+
+#principal_profil {
+    display: flex;
+    margin-left: 290px;
+    width: 1000px;
+}
+
+#perso {
+    width: 400px;
+    height: fit-content;
+    margin-top: 50px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 80px;
+}
+
+#post, #post_amis {
+    width: 500px;
+}
+
+#img_post_amis {
+    width: 480px;
+    height: 260px;
+    object-fit: contain;
+}
+
+/* -----------------------------------------intro ----------------------------------------------- */
+
+.line_intro p img {
+    height: 20px;
+}
+
+.line_intro p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: rgb(151, 151, 151);
+}
+
+.line_intro p strong {
+    color: rgb(90, 90, 90);
+}
+
+#intro h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: rgb(54, 54, 54);
+}
+
+#intro {
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.15);
+    border-radius: 20px;
+}
+
+/* --------------------------------description -------------------------------------------------- */
+
+#description {
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.15);
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+#description h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: rgb(54, 54, 54);
+}
+
+#description p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: rgb(151, 151, 151);
+}

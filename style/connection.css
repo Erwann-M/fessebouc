@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'facebook';
+    src: url('../font/klavika-bold.otf');
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F0F2F5;
+}
+
+#conteneur_connection {
+    display: flex;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+#conteneur_presentation {
+    width: 500px;
+    margin-right: 100px;
+}
+
+#conteneur_presentation p {
+    font-size: 28px;
+    margin-top: 0px;
+}
+
+#conteneur_presentation h1 {
+    font-family: 'facebook';
+    font-size: 65px;
+    color: #1877F2;
+    margin-bottom: 0px;
+}
+
+#conteneur_formulaire {
+    background-color: #FFFFFF;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: -1px 2px 20px -4px rgba(0,0,0,0.44);
+}
+
+#email,#pass {
+    width: 340px;
+    height: 45px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: rgb(216, 216, 216) 1px solid;
+    border-radius: 5px;
+    font-size: 17px;
+    padding-left: 15px;
+}
+
+
+#email:focus, #pass:focus {
+    outline: none;
+    border: #1877F2 1px solid;
+}
+
+
+#connection_auto {
+    margin-left: 100px;
+}
+
+#case_connect_auto:hover {
+    cursor: pointer;
+}
+
+#btn_connection {
+    width: 361px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 21px;
+    font-weight: bolder;
+    color: white;
+    background-color: #1877F2;
+}
+
+#btn_connection:hover {
+    cursor: pointer;
+    background-color: #166FE5;
+}
+
+#pass_oubli_conteneur {
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#pass_oubli {
+    margin-left: 110px;
+    text-decoration: none;
+    color: #1877F2;
+    margin-bottom: 0px;
+}
+
+#inscription {
+    width: 350;
+    height: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0px;
+    border-top: rgb(216, 216, 216) 1px solid;
+}
+
+#btn_creer_compte {
+    background-color: #42b72a;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#btn_creer_compte:hover {
+    background-color: #36A420;
+}
+
+#btn_compte {
+    margin-left: 90px;
+    margin-top: 35px;
+}
+
+.erreur {
+    margin-top: 4px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    color: red;
+}
+
+/* rendre le site responsive pour smartphone */
+@media (min-width: 480px) and (max-width: 780px) {
+    #conteneur_connection {
+        display: block;
+        margin-left: 10%;
+        margin-top: 20px;
+    }
+
+    #conteneur_formulaire {
+        background-color: #FFFFFF;
+        width: 385px;
+    }
+
+    #conteneur_presentation {
+        width: 400px;
+        margin-right: 100px;
+    }
+}
+
+/* pour tablette */
+@media (min-width: 781px) and (max-width: 979px) {
+    #conteneur_connection {
+        display: flex;
+        margin-top: 20%;
+        margin-left: 2%;
+    }
+
+    #conteneur_presentation {
+        margin-right: 10px;
+    }
+}

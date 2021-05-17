@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'fessebouc';
+    src: url('../font/klavika-bold.otf');
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'fessebouc';
+    color: #1877F2;
+    font-size: 100px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(112, 112, 112);
+}
+
+#vid_win {
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(151, 151, 151);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+a:hover {
+    color: rgb(112, 112, 112);
+}

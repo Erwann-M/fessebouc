@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'fecebook';
+    src: url('../font/klavika-bold.otf');
+}
+
+#modif_profil {
+    width: 900px;
+    background-color: white;
+    margin-left: 320px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.15);
+    border-radius: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#profile {
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    object-fit: cover;
+    box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.65);
+}
+
+h1 {
+    padding-top: 30px;
+    font-family: 'facebook';
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'facebook';
+    font-size: 30px;
+    border-bottom: rgb(199, 199, 199) 1px solid;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#description {
+    padding: 10px;
+    border: none;
+    background-color: #F5F6F7;
+    border-radius: 10px;
+    resize: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    width: 520px;
+}
+
+#compteur_text_area {
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: rgb(187, 187, 187);
+    margin-left: 300px;
+    margin-bottom: 0px;
+}
+
+#description:focus, 
+#etudes:focus, 
+#habitation:focus, 
+#metier:focus {
+    outline: none;
+}
+
+#etudes, #habitation, #metier {
+    margin-top: 50px;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    background-color: #F5F6F7;
+    width: 520px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+#etudes {
+    margin-top: 5px;
+}
+
+#fbi {
+    margin-top: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(187, 187, 187);
+}
+
+#chomeur {
+    margin-top: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(187, 187, 187);
+    font-size: 13px;
+}
+
+#titre_genre {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.genre {
+    border: rgb(182, 182, 182) 1px solid;
+}
+
+.valeur_genre {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#arrangement {
+    display: flex;
+    margin-top: 15px;
+    
+}
+
+.colonnes {
+    text-align: right;
+    margin-left: 20px;
+}
+
+#deco_genre {
+    background-color: #F5F6F7;
+    padding: 20px;
+    margin-left: 180px;
+    margin-right: 180px;
+    border-radius: 10px;
+}
+
+#btn_valider {
+    border: none;
+    font-size: 25px;
+    padding: 10px 30px 10px 30px;
+    margin-bottom: 20px;
+    background-color: #1877F2;
+    cursor: pointer;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+}
+
+#btn_valider:hover {
+    background-color: #166FE5;
+}
+
+#valide, #invalide {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#valide {
+    color: green;
+}
+
+#invalide {
+    color: red;
+}
+
+#retour_profil {
+    text-decoration: none;
+    color: rgb(151, 151, 151);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#retour_profil:hover {
+    color: rgb(129, 129, 129);
+}
