@@ -36,19 +36,20 @@
             ?>
             <p id="prenom_navbar"><?php echo $prenom['prenom']?></p>
         </a>
-        <nav id="option_navbar">
-            <ul id="navbar-dynamique">
-                <li>
-                    <a href="tchat"><img src="img/mess_icon.png"></a>
-                </li>
+        <div id="option_navbar">
+            <ul id="navbar_dynamique">
                 <li>
                     <a href="notification"><img src="img/notif_icon.png"></a>
                 </li>
                 <li>
-                    <a href="deconnection.php" title="Deconnection"><img src="img/deconnection.png"></a>
+                    <a href="" title="Plus"><img src="img/deroul_icon.png"></a>
+                    <ul>
+                        <li><a href="">Deconnection</a></li>
+                        <li><a href="">Profil</a></li>
+                    </ul>
                 </li>
             </ul>
-        </nav>
+        </div>
     </div>
     <?php
     

@@ -11,6 +11,7 @@ session_start();
     <title>Modifier le profil | Fessebouc</title>
     <script type="text/javascript">
         
+        // creation d'une fonction pour compter le nombre de caractères restant dans un textarea afin de limité le nombre de caracteres max.
             function maxlength_textarea(id, crid, max)
             {
                 var txtarea = document.getElementById(id);

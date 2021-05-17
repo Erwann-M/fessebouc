@@ -10,8 +10,6 @@ body {
     margin-top: 50px;
 }
 
-
-
 #nav_bar_fixe {
     display: flex;
     background-color: white;
@@ -22,6 +20,7 @@ body {
     top: 0;
     right: 0;
     left: 0;
+    height: auto;
 }
 
 #logo_navbar {
@@ -111,13 +110,14 @@ body {
     font-size: 17px;
 }
 
+
 #option_navbar ul {
     display: flex;
     margin-left: 0px;
     list-style: none;
+    position: relative;
     margin-top: 0px;
     margin-bottom: 0px;
-    position: sticky;
 }
 
 
@@ -135,6 +135,31 @@ body {
 #option_navbar img:hover {
     background-color: #D8DADF;
 }
+
+#navbar_dynamique {
+    height: 55px;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar_dynamique li ul {
+    display: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+#navbar_dynamique li ul li {
+    height: 30px;
+    background-color: #166FE5;
+}
+
+/* ! apparition navbar que je n'arrive toujours pas a mettre en place ... */
+
+/* #navbar_dynamique li:hover ul {
+    display: block;
+} */
 
 /* stylesheet conteneur principale ---------------------------------------------------------------------- */
 
