@@ -8,7 +8,7 @@ This is a training that I imposed on myself after finishing the openclassroom ph
 I am at the very beginning of my php training, so this site is really messy and can be improved.
 I also and especially created it in order to make my friends laugh.
 
-It is coding in **HTML5** **CSS3** and **PHP**.
+It is coding in ``HTML5`` ``CSS3`` and ``PHP``.
 
 The site is nevertheless functional but not finishes, it is connected to an SQL database.
 
