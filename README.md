@@ -1,8 +1,8 @@
-# fessebouc
+# Fessebouc
 
 Here is my reinterpretation of the famous facebook site. 
 
-## description
+## Description
 
 This is a training that I imposed on myself after finishing the openclassroom php course. 
 I am at the very beginning of my php training, so this site is really messy and can be improved.
