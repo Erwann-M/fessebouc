@@ -39,6 +39,9 @@
         <div id="option_navbar">
             <ul id="navbar_dynamique">
                 <li>
+                    <a href="message"><img src="img/mess_icon.png"></a>
+                </li>
+                <li>
                     <a href="notification"><img src="img/notif_icon.png"></a>
                 </li>
                 <li>
