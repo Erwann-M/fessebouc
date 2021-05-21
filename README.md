@@ -2,14 +2,17 @@
 
 Here is my reinterpretation of the famous facebook site. 
 
+## description
+
 This is a training that I imposed on myself after finishing the openclassroom php course. 
 I am at the very beginning of my php training, so this site is really messy and can be improved.
 I also and especially created it in order to make my friends laugh.
 
 It is coding in **HTML5** **CSS3** and **PHP**.
 
+The site is nevertheless functional but not finishes, it is connected to an SQL database.
 
-The site is nevertheless functional, it is connected to an SQL database. 
+## Screenshot 
 
 So you can register (passwords are encrypted in the database) :
 ![Capture d’écran (72)](https://user-images.githubusercontent.com/51136036/119128315-ccfb8200-ba35-11eb-98f7-be4f6f50f3d0.png)
