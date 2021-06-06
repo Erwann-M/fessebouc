@@ -16,7 +16,7 @@
                     <h1>S'inscrire</h1><br>
                     <p>C'est rapide et facile.</p>
                 </div>
-                <a href="connection.php" id="croix" title="La petite croix c'est pour quitter en général..."><img src="img/croix.png"></a>
+                <a href="index.php" id="croix" title="La petite croix c'est pour quitter en général..."><img src="img/croix.png"></a>
             </div>
     <?php
 
@@ -54,7 +54,7 @@
                         'date_naissance' => $_POST['date_naissance']
                     ));
                     echo '<p id="inscription_valide">Compte créé avec succès! Bienvenu dans la secte!<br>
-                    Tu peut te <a href="connection.php" id="connection_inscription">Connecter</a></p>';
+                    Tu peut te <a href="index.php" id="connection_inscription">Connecter</a></p>';
                     $registration->closeCursor();
                 }
             }
