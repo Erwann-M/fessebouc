@@ -12,7 +12,7 @@ session_start();
 <body>
 
     <?php
-        if (isset($_SESSION['id']) && isset($_SESSION['prenom'])) {
+        if (isset($_SESSION['id'])) {
 
             require 'connection_bdd.php';
 

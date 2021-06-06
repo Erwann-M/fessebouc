@@ -104,7 +104,7 @@ require 'connection_bdd.php';
         }
     }
 
-        if (isset($_SESSION['id']) && isset($_SESSION['prenom'])) {
+        if (isset($_SESSION['id'])) {
 
 
             require 'elements/nav_bar.php';

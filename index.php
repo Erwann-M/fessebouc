@@ -28,7 +28,6 @@
                     if ($_COOKIE['pass'] == $pass['pass']) {
                         session_start();
                         $_SESSION['id'] = $pass['id'];
-                        $_SESSION['prenom'] = $pass['prenom'];
                         header('Location: mur.php');
                     }
                     $pass_query->closeCursor();
@@ -49,7 +48,6 @@
                         if ($pass_correct) {
                             session_start();
                             $_SESSION['id'] = $pass['id'];
-                            $_SESSION['prenom'] = $pass['prenom'];
                             if (isset($_POST['connection_auto'])) {
                                 setcookie('email', $_POST['email'], time() + 365*24*3600, null, null, false, true);
                                 setcookie('pass', $pass['pass'], time() + 365*24*3600, null, null, false, true);
